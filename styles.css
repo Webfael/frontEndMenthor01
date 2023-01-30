@@ -1,0 +1,219 @@
+/*<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<style>
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+</style>*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('./images/bg-desktop.svg');
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+  display: flex;
+  height: 120px;
+}
+
+header img {
+  max-width: 15%;
+  margin-left: 5%;
+}
+
+main{
+  display: flex;
+  color:white;
+  justify-content: space-around;
+}
+
+section{
+  width: 50%;
+  margin: 2%;
+}
+.image {
+  text-align: center;
+
+}
+
+#mockups {
+  max-width: 80%; 
+}
+
+.container{
+  position: relative;
+}
+
+h1 {
+  margin: 5%;
+  font-weight: 600;
+  font-size: 250%;
+  max-width: 80%;
+}
+
+.graph {
+  margin-left: 5%;
+  max-width: 70%;
+}
+
+button{
+  width: 150px;
+  height: 50px;
+  border-radius: 60px;
+  border: none;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+div {
+  color: white;
+  text-align: end;
+  letter-spacing: 30px;
+  padding-right: 5%;
+}
+
+#bnt {
+  font-size: 30px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#bnt:hover {
+  color: hsl(228, 45%, 44%);
+}
+
+#bnt:active{
+  color: hsl(300, 69%, 71%);
+}
+
+button{
+  width: 180px;
+  height: 50px;
+  border-radius: 60px;
+  border: none;
+  background-color: white;
+  color: hsl(228, 45%, 44%);
+  cursor: pointer;
+}
+
+button:hover{
+  color: hsl(300, 69%, 71%);
+}
+
+button:active {
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+}
+
+footer {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: column-reverse;
+  height: 18%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1366px) {
+  
+  footer {
+    display:none;
+    margin-top: 2%;
+  }
+}
+
+@media (max-width:1023px ) {
+  
+  header {
+    display: flex;
+    height: 100px;
+    text-align: center;
+  }
+  
+  header img {
+    max-width: 30%;
+    margin-left: 5%;
+  }
+  
+  main{
+    flex-direction: column;
+  }
+  
+  section{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 5%;
+  }
+  .image {
+    text-align: center;
+  
+  }
+  
+  #mockups {
+    max-width: 80%; 
+  }
+  
+  .container{
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 200%;
+    max-width: 80%;
+    text-align: center;
+  }
+  
+  .graph {
+    margin-left: 0;
+    max-width: 80%;
+    text-align: center;
+  }
+  
+  button{
+    width: 150px;
+    height: 50px;
+    border-radius: 60px;
+    border: none;
+    margin-top: 5%;
+    margin-left: 0;
+  }
+  
+  div {
+    color: white;
+    text-align: center;
+    letter-spacing: 30px;
+    padding-top: 5%;
+    padding-right: 0;
+  }
+
+  footer {
+    display:none;
+  }
+}

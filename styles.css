@@ -21,8 +21,7 @@ body {
     background-image: url('./images/bg-desktop.svg');
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
@@ -119,23 +118,6 @@ button:active {
   background-color: hsl(300, 69%, 71%);
 }
 
-footer {
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  margin-top: 2%;
-  flex-direction: column-reverse;
-  height: 18%;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (max-width: 1366px) {
   
   footer {
@@ -213,9 +195,11 @@ footer {
     letter-spacing: 30px;
     padding-top: 5%;
     padding-right: 0;
+    
   }
 
-  footer {
-    display:none;
+  a {
+    border: solid 1px white;
   }
+
 }
